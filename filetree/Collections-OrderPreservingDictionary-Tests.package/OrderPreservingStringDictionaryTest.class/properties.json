@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-OrderPreservingDictionary-Tests-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OrderPreservingStringDictionaryTest",
+	"pools" : [
+		 ],
+	"super" : "StandardOrderedDictionaryTest",
+	"type" : "normal" }

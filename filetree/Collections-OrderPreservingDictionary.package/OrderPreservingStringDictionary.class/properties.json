@@ -1,0 +1,14 @@
+{
+	"category" : "Collections-OrderPreservingDictionary",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OrderPreservingStringDictionary",
+	"pools" : [
+		 ],
+	"super" : "StandardOrderedDictionary",
+	"type" : "normal" }

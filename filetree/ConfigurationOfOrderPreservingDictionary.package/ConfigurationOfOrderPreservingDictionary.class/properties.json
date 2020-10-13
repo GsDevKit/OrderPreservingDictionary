@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfOrderPreservingDictionary",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfOrderPreservingDictionary",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

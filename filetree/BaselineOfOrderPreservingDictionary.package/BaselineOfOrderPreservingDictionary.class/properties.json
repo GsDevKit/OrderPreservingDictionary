@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfOrderPreservingDictionary",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfOrderPreservingDictionary",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

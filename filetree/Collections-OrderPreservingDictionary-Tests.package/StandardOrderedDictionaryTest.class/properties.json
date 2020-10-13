@@ -1,0 +1,15 @@
+{
+	"category" : "Collections-OrderPreservingDictionary-Tests-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nonIdentityOrderedAssociations",
+		"identityOrderedAssociations" ],
+	"name" : "StandardOrderedDictionaryTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
