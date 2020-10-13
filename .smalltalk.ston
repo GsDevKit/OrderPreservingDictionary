@@ -9,7 +9,7 @@ SmalltalkCISpec {
 		},
 		SCIMetacelloLoadSpec {
 			#baseline : 'OrderPreservingDictionary',
-			#directory : 'src',
+			#directory : 'filetree',
 			#onWarningLog : true,
 			#load : [ 'Tests' ],
 			#useLatestMetacello : true,
