@@ -20,5 +20,5 @@ baseline: spec
 	spec
 		for: #gemstone
 		do: [ 
-			spec package: 'Collections-OrderPreservingDictionary' with: [ spec includes: 'Collections-OrderPreservingDictionary-Gemstone' ].
-			spec package: 'Collections-OrderPreservingDictionary-Gemstone' with: [ spec requires: 'Collections-OrderPreservingDictionary' ]].
+			spec package: 'Collections-OrderPreservingDictionary' with: [ spec includes: 'Collections-OrderPreservingDictionary-GemStone' ].
+			spec package: 'Collections-OrderPreservingDictionary-GemStone' with: [ spec requires: 'Collections-OrderPreservingDictionary' ]].
