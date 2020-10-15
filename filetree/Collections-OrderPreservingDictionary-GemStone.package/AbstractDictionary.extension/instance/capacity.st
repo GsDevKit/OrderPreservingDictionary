@@ -1,3 +1,3 @@
 *Collections-OrderPreservingDictionary-GemStone
 capacity
-	^ self tableSize
+	^self tableSize
