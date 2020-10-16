@@ -25,4 +25,8 @@ baseline: spec
 
 	spec
 		for: #'gs3.1.x'
-		do: [ spec package: 'Collections-OrderPreservingDictionary-GemStone31x' with: [ spec requires: 'Collections-OrderPreservingDictionary-GemStone' ]].
+		do: [ 
+			spec package: 'Collections-OrderPreservingDictionary' with: [ spec includes: #('Collections-OrderPreservingDictionary-GemStone' 'Collections-OrderPreservingDictionary-GemStone31x')].
+			spec package: 'Collections-OrderPreservingDictionary-GemStone' with: [ spec requires: 'Collections-OrderPreservingDictionary' ].
+			spec package: 'Collections-OrderPreservingDictionary-GemStone31x' with: [ spec requires: 'Collections-OrderPreservingDictionary-GemStone' ].
+		].
