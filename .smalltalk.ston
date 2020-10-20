@@ -2,13 +2,6 @@ SmalltalkCISpec {
 	#loading : [
 		SCIMetacelloLoadSpec {
 			#baseline : 'OrderPreservingDictionary',
-			#directory : 'src',
-			#onWarningLog : true,
-			#load : [ 'Tests' ],
-			#platforms : [ #pharo ]
-		},
-		SCIMetacelloLoadSpec {
-			#baseline : 'OrderPreservingDictionary',
 			#directory : 'filetree',
 			#onWarningLog : true,
 			#load : [ 'Tests' ],

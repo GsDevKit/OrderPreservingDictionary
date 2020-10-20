@@ -20,5 +20,13 @@ baseline: spec
 	spec
 		for: #gemstone
 		do: [ 
-			spec package: 'Collections-OrderPreservingDictionary' with: [ spec includes: 'Collections-OrderPreservingDictionary-GemstoneCompatibility' ].
-			spec package: 'Collections-OrderPreservingDictionary-GemstoneCompatibility' with: [ spec requires: 'Collections-OrderPreservingDictionary' ]].
+			spec package: 'Collections-OrderPreservingDictionary' with: [ spec includes: 'Collections-OrderPreservingDictionary-GemStone' ].
+			spec package: 'Collections-OrderPreservingDictionary-GemStone' with: [ spec requires: 'Collections-OrderPreservingDictionary' ]].
+
+	spec
+		for: #'gs3.1.x'
+		do: [ 
+			spec package: 'Collections-OrderPreservingDictionary' with: [ spec includes: #('Collections-OrderPreservingDictionary-GemStone' 'Collections-OrderPreservingDictionary-GemStone31x')].
+			spec package: 'Collections-OrderPreservingDictionary-GemStone' with: [ spec requires: 'Collections-OrderPreservingDictionary' ].
+			spec package: 'Collections-OrderPreservingDictionary-GemStone31x' with: [ spec requires: 'Collections-OrderPreservingDictionary-GemStone' ].
+		].

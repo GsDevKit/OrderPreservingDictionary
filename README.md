@@ -1,5 +1,5 @@
 # Order Preserving Dictionary
-[![Build Status](https://travis-ci.org/pharo-contributions/OrderPreservingDictionary.svg?branch=master)](https://travis-ci.org/pharo-contributions/OrderPreservingDictionary) [![Coverage Status](https://coveralls.io/repos/github/pharo-contributions/OrderPreservingDictionary/badge.svg?branch=master)](https://coveralls.io/github/pharo-contributions/OrderPreservingDictionary?branch=master)
+[![Build Status](https://travis-ci.org/brunobuzzi/OrderPreservingDictionary.svg?branch=gemstone)](https://github.com/brunobuzzi/OrderPreservingDictionary) [![Coverage Status](https://coveralls.io/repos/github/pharo-contributions/OrderPreservingDictionary/badge.svg?branch=master)](https://coveralls.io/github/pharo-contributions/OrderPreservingDictionary?branch=master)
 
 ## Installation
 
