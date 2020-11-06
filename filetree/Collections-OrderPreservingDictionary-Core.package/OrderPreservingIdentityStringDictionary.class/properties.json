@@ -11,4 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "OrderPreservingStringDictionary",
-	"type" : "normal" }
+	"type" : "variable" }

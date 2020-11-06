@@ -12,4 +12,4 @@
 	"pools" : [
 		 ],
 	"super" : "Collection",
-	"type" : "normal" }
+	"type" : "variable" }

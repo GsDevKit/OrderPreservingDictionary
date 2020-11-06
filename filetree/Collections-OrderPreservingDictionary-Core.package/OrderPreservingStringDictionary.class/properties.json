@@ -11,4 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "StandardOrderedDictionary",
-	"type" : "normal" }
+	"type" : "variable" }
