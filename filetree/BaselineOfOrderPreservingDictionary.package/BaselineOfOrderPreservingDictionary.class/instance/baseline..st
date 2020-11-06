@@ -19,13 +19,22 @@ baseline: spec
 				group: 'all' with: #('Core' 'Tools' 'Tests');
 				group: 'default' with: #('all') ].
 	spec
-		for: #'gemstone'
+		for: #( #'gemstone')
 		do: [ 
 			spec
 				package: 'Collections-OrderPreservingDictionary-Core'
 				with: [ spec includes: 'Collections-OrderPreservingDictionary-GemStone' ].
 			spec
 				package: 'Collections-OrderPreservingDictionary-GemStone'
+				with: [ spec requires: 'Collections-OrderPreservingDictionary-Core' ] ].
+	spec
+		for: #( #'gs3.2.x'  #'gs3.3.x'  #'gs3.4.x'  #'gs3.5.x'  #'gs3.6.x')
+		do: [ 
+			spec
+				package: 'Collections-OrderPreservingDictionary-Core'
+				with: [ spec includes: 'Collections-OrderPreservingDictionary-GemStone32-' ].
+			spec
+				package: 'Collections-OrderPreservingDictionary-GemStone32-'
 				with: [ spec requires: 'Collections-OrderPreservingDictionary-Core' ] ].
 	spec
 		for: #'gs3.1.x'
@@ -35,10 +44,7 @@ baseline: spec
 				with: [ 
 					spec
 						includes:
-							#('Collections-OrderPreservingDictionary-GemStone' 'Collections-OrderPreservingDictionary-GemStone31x') ].
-			spec
-				package: 'Collections-OrderPreservingDictionary-GemStone'
-				with: [ spec requires: 'Collections-OrderPreservingDictionary-Core' ].
+							#('Collections-OrderPreservingDictionary-GemStone31x') ].
 			spec
 				package: 'Collections-OrderPreservingDictionary-GemStone31x'
-				with: [ spec requires: 'Collections-OrderPreservingDictionary-GemStone' ] ]
+				with: [ spec requires: 'Collections-OrderPreservingDictionary-Core' ] ]
