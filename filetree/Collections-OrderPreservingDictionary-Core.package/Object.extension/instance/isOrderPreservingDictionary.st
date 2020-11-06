@@ -1,4 +1,4 @@
-*Collections-OrderPreservingDictionary
+*Collections-OrderPreservingDictionary-Core
 isOrderPreservingDictionary
 	"Defined here because not all collections inherit from Collection,
 	so just defining it in Collection and StandardOrderedDictionary
