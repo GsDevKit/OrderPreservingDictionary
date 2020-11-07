@@ -3,12 +3,17 @@
 
 ## Installation
 
+### Metacello
 ```smalltalk
 Metacello new
 	baseline: 'OrderPreservingDictionary';
-	repository: 'github://pharo-contributions/OrderPreservingDictionary/src';
+	repository: 'github://GsDevKit/OrderPreservingDictionary:gemstone/filetree';
 	load.
 ```
+### tODE command line
+```
+project install --url=http://gsdevkit.github.io/GsDevKit_home/OrderPreservingDictionary.ston
+project load OrderPreservingDictionary
 
 ## Usage
 
