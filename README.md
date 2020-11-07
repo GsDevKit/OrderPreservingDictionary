@@ -14,6 +14,7 @@ Metacello new
 ```
 project install --url=http://gsdevkit.github.io/GsDevKit_home/OrderPreservingDictionary.ston
 project load OrderPreservingDictionary
+```
 
 ## Usage
 
