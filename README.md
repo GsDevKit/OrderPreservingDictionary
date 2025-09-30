@@ -1,7 +1,22 @@
 # Order Preserving Dictionary
-[![Build Status](https://travis-ci.org/brunobuzzi/OrderPreservingDictionary.svg?branch=gemstone)](https://github.com/brunobuzzi/OrderPreservingDictionary) [![Coverage Status](https://coveralls.io/repos/github/pharo-contributions/OrderPreservingDictionary/badge.svg?branch=master)](https://coveralls.io/github/pharo-contributions/OrderPreservingDictionary?branch=master)
 
-## Installation
+*OrderPreservingDictionary* preserves the order in which elements were added to to it.
+
+[![Unit Tests](https://github.com/pharo-contributions/OrderPreservingDictionary/workflows/Build/badge.svg?branch=master)](https://github.com/pharo-contributions/OrderPreservingDictionary/actions?query=workflow%3ABuild)
+[![Coverage Status](https://codecov.io/github/pharo-contributions/OrderPreservingDictionary/coverage.svg?branch=master)](https://codecov.io/gh/pharo-contributions/OrderPreservingDictionary/branch/master)
+
+[![Pharo 6](https://img.shields.io/badge/Pharo-6.0-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 7](https://img.shields.io/badge/Pharo-7.0-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 8](https://img.shields.io/badge/Pharo-8.0-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 9](https://img.shields.io/badge/Pharo-9.0-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 10](https://img.shields.io/badge/Pharo-10-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 11](https://img.shields.io/badge/Pharo-11-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 12](https://img.shields.io/badge/Pharo-12-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 13](https://img.shields.io/badge/Pharo-13-%23aac9ff.svg)](https://pharo.org/download)
+
+## Quick Start 
+
+### Installation 
 
 ### Metacello
 ```smalltalk
@@ -16,9 +31,7 @@ project install --url=http://gsdevkit.github.io/GsDevKit_home/OrderPreservingDic
 project load OrderPreservingDictionary
 ```
 
-## Usage
-
-OrderPreservingDictionary preserves the order in which elements were added to to it.
+### Usage
 
 Basic **Dictionary**
 

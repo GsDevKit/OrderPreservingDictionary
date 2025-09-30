@@ -1,6 +1,6 @@
-Extension { #name : #Object }
+Extension { #name : 'Object' }
 
-{ #category : #'*Collections-OrderPreservingDictionary' }
+{ #category : '*Collections-OrderPreservingDictionary' }
 Object >> isOrderPreservingDictionary [
 	"Defined here because not all collections inherit from Collection,
 	so just defining it in Collection and StandardOrderedDictionary

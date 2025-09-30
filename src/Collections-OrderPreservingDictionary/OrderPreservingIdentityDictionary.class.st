@@ -2,29 +2,33 @@
 An IdentityDictionary version that uses == instead of = for key comparing.
 "
 Class {
-	#name : #OrderPreservingIdentityDictionary,
-	#superclass : #OrderPreservingDictionary,
-	#category : #'Collections-OrderPreservingDictionary'
+	#name : 'OrderPreservingIdentityDictionary',
+	#superclass : 'OrderPreservingDictionary',
+	#category : 'Collections-OrderPreservingDictionary-Base',
+	#package : 'Collections-OrderPreservingDictionary',
+	#tag : 'Base'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 OrderPreservingIdentityDictionary >> dictionaryClass [
+
 	^ IdentityDictionary
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 OrderPreservingIdentityDictionary >> indexOfKey: aKey ifAbsent: aBlock [
-	^ self
-		identityIndexOfKey: aKey
-		ifAbsent: aBlock
+
+	^ self identityIndexOfKey: aKey ifAbsent: aBlock
 ]
 
-{ #category : #testing }
+{ #category : 'testing' }
 OrderPreservingIdentityDictionary >> isIdentityDictionary [
+
 	^ true
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 OrderPreservingIdentityDictionary >> orderedKeysIndexOf: aKey [
+
 	^ self orderedKeysIdentityIndexOf: aKey
 ]

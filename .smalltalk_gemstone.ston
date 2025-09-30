@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+    #loading : [
+        SCIMetacelloLoadSpec {
+            #baseline : 'OrderPreservingDictionary',
+            #directory : 'filetree',
+            #load : [ 'Tests' ],
+            #platforms : [ #gemstone ]
+        }
+    ]
+}
